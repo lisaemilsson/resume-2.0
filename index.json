@@ -1,0 +1,73 @@
+{
+    
+    "work": [{
+      "name": "Americana Classic Vintage",
+      "position": "Shop assistant",
+      "startDate": "2012 June",
+      "endDate": "2015 April",
+      "summary": "Working in a store and receiving customers, helping and standing at the till. Also warehouse work when I unpacked goods, sorted and entered them into the store's system"
+      
+    }],
+
+    "work": [{
+        "name": "NannyNu",
+        "position": "Babysitting",
+        "startDate": "2013 October",
+        "endDate": "2015 March",
+        "summary": "Babysitting which included picking up children from daycare and looking after them."
+      
+      }],
+
+      "work": [{
+        "name": "Färgstark by Stockholm",
+        "position": "Painter",
+        "startDate": "2015 June",
+        "endDate": "2015 November",
+        "summary": "Apprenticeship as a painter"
+       
+      }],
+
+      "work": [{
+        "name": "Lea Vård och Omsorg",
+        "position": "Caregiver",
+        "startDate": "2015 November",
+        "endDate": "2016 October",
+        "summary": "Caregiver and assistance in the home."
+      }],
+
+      "work": [{
+        "name": "Stenungsbageriet Les Petits Boundins",
+        "position": "Barista",
+        "startDate": "2016 October",
+        "endDate": "2017 January",
+        "summary": "At first barista later store manager."
+       
+      }],
+
+      "work": [{
+        "name": "Swing by Golfbaren",
+        "position": "Waitress",
+        "startDate": "2018 April",
+        "endDate": "2022 ongoing",
+        "summary": "I learned to work as a waitress, receptionist and golf host. Has also been responsible for one of Golfbaren's outdoor facilities for the past two summers, Golfbaren Kristineberg. There I had to set schedules, take care of all orders and have an overview of the operation and the staff"
+      
+      }],
+  
+    "education": [{
+      "institution": "St. Martin's high school",
+      "area": "Building and construction program majoring in painting",
+      "studyType": "Bachelor",
+      "startDate": "2012",
+      "endDate": "2015"
+      
+    }],
+
+    "education": [{
+        "institution": "Chas Academy",
+        "area": "UX/UI- design with frontend",
+        "studyType": "Bachelor",
+        "startDate": "2022",
+        "endDate": "ongoing"
+      }]
+
+}   
