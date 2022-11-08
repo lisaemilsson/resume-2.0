@@ -1,12 +1,12 @@
 {
-  "resume":[
+  "resume":[ 
     
     {
       "type":"work",
       "name": "Americana Classic Vintage",
       "position": "Shop assistant",
-      "startDate": "Start date 2012 June",
-      "endDate": "End date 2015 April",
+      "startDate": "01-06-2012",
+      "endDate": "01-04-2015",
       "summary": "Working in a store and receiving customers, helping and standing at the till. Also warehouse work when I unpacked goods, sorted and entered them into the store's system"
     },
 
@@ -14,8 +14,8 @@
         "type":"work",
         "name": "NannyNu",
         "position": "Babysitting",
-        "startDate": "2013 October",
-        "endDate": "2015 March",
+        "startDate": "01-10-2013",
+        "endDate": "01-05-2015",
         "summary": "Babysitting which included picking up children from daycare and looking after them."
       
       },
@@ -24,8 +24,8 @@
         "type":"work",
         "name": "Färgstark by Stockholm",
         "position": "Painter",
-        "startDate": "2015 June",
-        "endDate": "2015 November",
+        "startDate": "01-06-2015",
+        "endDate": "01-11-2015",
         "summary": "Apprenticeship as a painter"
        
       },
@@ -34,8 +34,8 @@
         "type":"work",
         "name": "Lea Vård och Omsorg",
         "position": "Caregiver",
-        "startDate": "2015 November",
-        "endDate": "2016 October",
+        "startDate": "01-11-2015",
+        "endDate": "01-10-2016",
         "summary": "Caregiver and assistance in the home."
       },
 
@@ -43,8 +43,8 @@
         "type":"work",
         "name": "Stenungsbageriet Les Petits Boundins",
         "position": "Barista",
-        "startDate": "2016 October",
-        "endDate": "2017 January",
+        "startDate": "01-10-2016",
+        "endDate": "01-01-2017",
         "summary": "At first barista later store manager."
        
       },
@@ -53,8 +53,8 @@
         "type":"work",
         "name": "Swing by Golfbaren",
         "position": "Waitress",
-        "startDate": "2018 April",
-        "endDate": "2022 ongoing",
+        "startDate": "01-04-2018",
+        "endDate": null,
         "summary": "I learned to work as a waitress, receptionist and golf host. Has also been responsible for one of Golfbaren's outdoor facilities for the past two summers, Golfbaren Kristineberg. There I had to set schedules, take care of all orders and have an overview of the operation and the staff"
       
       },
@@ -62,19 +62,21 @@
       {
         "type":"education",
         "name": "St. Martin's high school",
-        "area": "Building and construction program majoring in painting",
-        "studyType": "Bachelor",
-        "startDate": "2012",
-        "endDate": "2015"
+        "summary": "Building and construction program majoring in painting",
+        "postion": "Bachelor",
+        "startDate": "01-01-2012",
+        "endDate": "01-01-2015"
     },
 
     {
       "type":"education",
       "name": "Chas Academy",
-      "area": "UX/UI- design with frontend",
-      "studyType": "Bachelor",
-      "startDate": "2022",
-      "endDate": "ongoing"
+      "summary": "UX/UI- design with frontend",
+      "position": "Bachelor",
+      "startDate": "05-09-2022",
+      "endDate": null
       }
+
+      
     ]
 }   

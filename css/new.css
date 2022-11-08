@@ -76,7 +76,13 @@ body {
   }
 
   .nav-link {
-    transition: 0.7s ease;
+    /* transition: 0.7s ease; */
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  .nav-link.active{
+    color: red;
   }
 
   .nav-link:hover{
@@ -85,6 +91,18 @@ body {
 
   .hamburger{
     display: block;
+    cursor: pointer;
+  }
+
+  .bar{
+    z-index: 1;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
   }
   
   .hamburger.active .bar:nth-child(2){
@@ -95,6 +113,10 @@ body {
   }
   .hamburger.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu.active {
+    left: 0;
   }
   
   .nav-menu{
@@ -117,21 +139,6 @@ body {
     font-size: 20px;
   }
   
-  .nav-link.active{
-    color: red;
-  }
-
-  .bar{
-    z-index: 1;
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: black;
-  }
-
   .main {
     flex: 1;
     display: flex;
@@ -277,13 +284,14 @@ body {
     height: 100px;
   } */
 
-  .work {
-    background-color: yellow;
 
+  .resume-item {
+    margin-bottom: 10px;
+    background-color: green;
   }
 
-  .education {
-    background-color: green;
+  .resume-item .name {
+    font-size: 20px;
   }
 
   .intro-resume li {

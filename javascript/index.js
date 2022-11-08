@@ -16,37 +16,52 @@ async function getSomething() {
          let todos = data.resume;
 
 
-         for(let i = 0; i < todos.length; i++) {
+            todos.forEach(todo => {
+                console.log(todo)
 
-            let type = todos[i].type
-  
-            for(var key in todos[i]){
+                const wrapper = document.createElement("div")
+                wrapper.className = "resume-item"
+                const summary = document.createElement("div")
+                summary.className = "summary"
+                const name = document.createElement("div")
+                name.className = "name"
+                const duration = document.createElement("div")
+                duration.className = "duration"
 
-                if(key !== "type"){
-                    
-                    const li = document.createElement("li");
-                    li.innerHTML = todos[i][key]
-                   
-                    if(type === "work"){
-    
-                        workUl.appendChild(li);
-                    }
-                    else{
-                        educationUl.appendChild(li);
-                    }
+                wrapper.appendChild(name)
+                wrapper.appendChild(summary)
+                wrapper.appendChild(duration)
+
+                name.innerText = todo.name
+                summary.innerText = todo.summary
+
+                const startDate = new Date(todo.startDate)
+                const endDate = new Date(todo.endDate)
+
+                duration.innerText = startDate.toDateString() + " - " + endDate.toDateString()
+            
+                if(todo.type === "work"){
+                    workUl.appendChild(wrapper)
+                }
+                if(todo.type === "education"){
+                    educationUl.appendChild(wrapper)
                 }
 
-            }
-         }
+
+            });
+
+        } else {
+            console.log("HTTP-Error: " + response.status);
+        }
+    }
+    
+    getSomething();
+
+
 
      
 
-    } else {
-        console.log("HTTP-Error: " + response.status);
-    }
-}
-
-getSomething();
+  
 
 
 
