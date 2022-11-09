@@ -54,28 +54,4 @@ async function getSomething() {
         }
     }
     
-  async function getRepos(){
-
-    fetch('https://api.github.com/users/lisaemilson/repos')
-    .then(response => response.json()) //Converting the response to a JSON object
-    .then(data => console.log(data))
-    .catch( error => console.error(error));
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  }  
-    getRepos();
     getSomething();
