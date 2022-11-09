@@ -279,19 +279,31 @@ body {
     flex-direction:row-reverse;
   }
 
-  /* .picture-resume {
-    width: 100px;
+  .picture-resume {
+    /* background-image: url(/img/IMG_2307.jpg); */
+    /* background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
     height: 100px;
-  } */
+    border-radius: 20px;
+    display: inline-block; */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+  
 
 
   .resume-item {
     margin-bottom: 10px;
-    background-color: green;
   }
 
   .resume-item .name {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .intro-resume li {

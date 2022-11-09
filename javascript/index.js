@@ -17,8 +17,7 @@ async function getSomething() {
 
 
             todos.forEach(todo => {
-                console.log(todo)
-
+            
                 const wrapper = document.createElement("div")
                 wrapper.className = "resume-item"
                 const summary = document.createElement("div")
@@ -56,27 +55,3 @@ async function getSomething() {
     }
     
     getSomething();
-
-
-
-     
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
