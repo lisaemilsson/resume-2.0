@@ -480,5 +480,13 @@ body {
     .main-about {
       flex-direction: row;
     }
+
+    .footer-portfolio {
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      box-sizing: border-box;
+      background-color:#8fb3c5;
+    }
   
   } 
