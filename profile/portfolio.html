@@ -40,7 +40,13 @@
 
 
         <div class="main-portfolio">
-            <ul class="image-gallery" id="image-gallery">
+            <ul class="image-gallery" id="image-gallery" onClick="hideSpinner()">
+
+                <!-- <div id="img-gallery" class="img-gallery" onClick="hideSpinner()"> -->
+               
+                <!-- </div> -->
+                <input type="button" value="save" id="saveBtn" onClick="showSpinner()">
+
                 <!-- <li>
                     <img src="../img/IMG_6616.JPG" alt="scissor-papper-rock">
                     <div class="overlay">
@@ -78,7 +84,7 @@
                 </ul>
             </nav>  -->
 
-        
+        <div class="push"></div>
     
         <footer class="footer">
             <ul class="main-ul-footer">
@@ -90,5 +96,6 @@
     </div>
     <script src="../javascript/style.js"></script>
     <script src="../javascript/api.js"></script>
+    <!-- <script src="../javascript/spinner.js"></script> -->
 </body>
 </html>

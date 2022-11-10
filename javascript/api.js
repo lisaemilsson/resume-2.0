@@ -49,6 +49,16 @@ async function getRepos() {
 
             portfolioUl.appendChild(li)
         })
+
+        const loadingDiv = document.getElementById('image-gallery');
+
+            function showSpinner() {
+            loadingDiv.style.visibility = 'visible';
+            }
+
+            function hideSpinner() {
+            loadingDiv.style.visibility = 'hidden';
+            }
 }
 
 getRepos()
