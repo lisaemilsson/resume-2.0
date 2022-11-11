@@ -31,7 +31,7 @@ body {
   }
   
   #background{
-    background-image: url("/img/Kanchenjunga-berg.jpeg");
+    background-image: url('../img/Kanchenjunga-berg.jpeg');
     content: "";
     background-size: cover;
     position: absolute;
@@ -165,7 +165,7 @@ body {
   }
 
   #background-about{
-    background-image: url(/img/1A19522A-EE1C-48E7-B7A7-98A076B397D5.JPG);
+    background-image: url('../img/1A19522A-EE1C-48E7-B7A7-98A076B397D5.JPG');
     content: "";
     background-size:cover;
     position: absolute;
